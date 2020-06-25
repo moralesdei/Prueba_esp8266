@@ -1,0 +1,4 @@
+Para instalar el firmware del esp para el arduino mega correr la siguiente
+linea
+
+python esptool.py --port /dev/ttyUSB0 write_flash 0x00000 ../v1.3.0.2\ AT\ Firmware.bin

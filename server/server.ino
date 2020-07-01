@@ -162,12 +162,11 @@ String ResponseClient(WiFiEspClient client)
                     // enviar el response para terminar la comunicacion.
     				if(tmp == '\n' && LineBlank) 
     				{
-              client.println("HTTP/1.1 200 OK");
-              client.println("Connection: close");
-              client.println("Content-type:text/html");
-              client.println();
-              client.println("<link rel=\"shortcut icon\" href=\"about:blank\">");
-              client.println();
+            client.print(
+            "HTTP/1.1 200 OK\r\n"
+            "Content-Type: text/html\r\n"
+            "Connection: close\r\n"  // the connection will be closed after completion of the response
+            "\r\n");
               break;
     				}
     				

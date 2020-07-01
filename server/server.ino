@@ -23,7 +23,6 @@ MCUFRIEND_kbv tft;
 WiFiEspServer server(80);
 IPAddress ip(192, 168, 1, 70);  
 
-int states[12];
 int room=0, current_state=0;
 int control[NUM_DEVICES];
 
@@ -69,7 +68,7 @@ void setup()
 void loop()
  {
     String buff;
-    boolean reference = false;
+
 	  // Obtiene un cliente que este conectado al server y envie datos.
 	  WiFiEspClient client = server.available();	
     

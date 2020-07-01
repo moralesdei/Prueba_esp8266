@@ -87,6 +87,7 @@ void SendMessage(String url)
       }
       if (client.connected()) {
         client.println(url);
+        client.println("Connection: close");
         client.println();
         Serial.println(url);
       }

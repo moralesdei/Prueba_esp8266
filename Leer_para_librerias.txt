@@ -1,0 +1,19 @@
+## Para instalar la tarjeta Esp8266 seguir este tutorial.
+## No olvidar que se debe seleccionar NodeMCU 1.0 (ESP-12E Module) para programarlo.
+
+https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
+
+## Para trabajar con el arduino mega instalar desde el library manager.
+## No olvidar que se debe seleccionar arduino mega para progrmarlo.
+
+WiFiEsp
+Link por si se quiere instalar manual: https://github.com/bportaluri/WiFiEsp
+
+## Para trabajar con la pantalla instalar desde el library manager.
+
+MCUFRIEND_kbv
+Link por si se quiere instalar manual: https://github.com/bportaluri/WiFiEsp
+
+Adafruit GFX Library
+Link por si se quiere instalar manual: https://github.com/adafruit/Adafruit-GFX-Library
+
